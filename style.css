@@ -165,6 +165,7 @@
   @media(min-width: 1200px){
     footer{
     height: 45vh;
+    text-align: center;
   }
   }
   .footer-text {
@@ -174,12 +175,10 @@
   .contact-image {
     max-width: 30%;
     display: block;
-    float: right;
   }
   .contact-image2 {
     max-width: 35%;
     display: block;
-    float: right;
     background-color: black;
   }
   a:link {
