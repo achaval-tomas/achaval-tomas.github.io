@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: #FFF;
   }
   :root{
     --main-white: #f0f0f0;
@@ -168,7 +167,6 @@
     footer{
     height: 45vh;
     text-align: center;
-    background-color: #FFF;
   }
   }
   .footer-div {
@@ -186,7 +184,7 @@
     padding-left: 10%;
   }
   .contact-image2 {
-    background-color: #FFF;
+    background-color: #ffffff;
     max-width: 30%;
     display: block;
     float: left;
