@@ -45,7 +45,7 @@
   }
   
   .welcome-section > p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
@@ -141,6 +141,7 @@
   }
   .project-title{
     font-size: 2rem;
+    font-weight: bolder;
     padding: 2rem 0.5rem;
     background-color: var(--main-gray);
     color: var(--main-white);
@@ -148,7 +149,7 @@
   .button {
     background: var(--main-red);
     padding: 30px;
-    border-radius: 25%;
+    border-radius: 10%;
   }
   :hover.button{
     background: var(--main-gray);
@@ -156,7 +157,7 @@
     transition: color 1s ease-out;
   }
   footer {
-    background-color: #000;
+    background-color: #FFF;
     height: 18vh;
     color: var(--main-white);
     text-align: end;
@@ -168,18 +169,26 @@
     text-align: center;
   }
   }
+  .footer-div {
+    display: block;
+    align-items: center;
+    align-content: center;
+  }
   .footer-text {
     display: block;
-    float: right;
   }
   .contact-image {
     max-width: 30%;
     display: block;
+    float: left;
+    padding-left: 10%;
   }
   .contact-image2 {
-    max-width: 35%;
+    max-width: 30%;
     display: block;
-    background-color: black;
+    float: left;
+    padding-left: 10%;
+    padding-top: 2%;
   }
   a:link {
     text-decoration: none;
