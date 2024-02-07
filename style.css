@@ -81,6 +81,7 @@
   }
 
   .about-me-section > ul {
+    list-style-type:circle;
     font-size: 2rem;
     font-weight: 200;
     font-style: normal;
@@ -171,7 +172,7 @@
   }
   .code {
     color: var(--main-gray);
-    transition: color 0.5s ease-out;
+    transition: color 0.3s ease-out;
   }
   .project:hover .code{
     color: var(--main-orange);
@@ -186,12 +187,12 @@
   .button {
     background: var(--main-orange);
     padding: 30px;
-    border-radius: 10%;
+    border-radius: 20%;
   }
   :hover.button{
     background: var(--main-gray);
     color: var(--main-white);
-    transition: color 1s ease-out;
+    transition: color 0.5s ease-out;
   }
   footer {
     height: 18vh;
