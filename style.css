@@ -157,7 +157,6 @@
     transition: color 1s ease-out;
   }
   footer {
-    background-color: #FFF;
     height: 18vh;
     color: var(--main-white);
     text-align: end;
